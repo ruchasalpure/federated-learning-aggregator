@@ -1,26 +1,30 @@
 spec_version: "0.1.0"
-name: "federated-learning-aggregator"
-version: "1.0.0"
-category: "research"
+name: federated-learning-aggregator
+version: 1.0.0
+description: Orchestrates secure multi-party model weight aggregation with Krum, Bulyan, and coordinate-wise trimmed mean Byzantine-resilient defenses.
 author: "Rucha Salpure"
-description: "Orchestrates secure multi-party model weight aggregation with Krum, Bulyan, and coordinate-wise trimmed mean Byzantine-resilient defenses"
-capabilities:
-  - "byzantine-robust-aggregation"
-  - "autonomous-decision-making"
-  - "explainable-auditing"
-  - "multi-agent-collaboration"
+license: MIT
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
 skills:
-  - "byzantine-robust-aggregation"
-tools:
-  - "python_executor"
-  - "audit_logger"
-  - "schema_validator"
+  - byzantine-robust-aggregation
+tools: []
+delegation:
+  mode: auto
 runtime:
-  environment: "python3.11"
-  memory_limit: "4GB"
-  timeout_seconds: 300
-governance:
-  audit_logging: true
-  human_in_the_loop: false
-  maker_checker: true
-  explainability_required: true
+  max_turns: 50
+  timeout: 300
+compliance:
+  risk_tier: standard
+  frameworks: []
+tags:
+  - research
+  - autonomous-agent
+  - opengap-verified
+metadata:
+  repository: "https://github.com/ruchasalpure/federated-learning-aggregator"

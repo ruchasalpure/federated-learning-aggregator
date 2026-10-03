@@ -1,6 +1,0 @@
-app:
-  name: "federated-learning-aggregator"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"
