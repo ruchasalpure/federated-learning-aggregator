@@ -1,0 +1,8 @@
+{
+  "agent_id": "federated-learning-aggregator",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}

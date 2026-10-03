@@ -1,0 +1,5 @@
+{
+  "name": "federated-learning-aggregator",
+  "service": "aws-kiro",
+  "version": "1.0.0"
+}

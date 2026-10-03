@@ -1,0 +1,10 @@
+{
+  "name": "federated-learning-aggregator",
+  "instructions": "You are Federated Learning Aggregator. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}
